@@ -43,19 +43,19 @@ def naming_system
   # HoH all the way to Species!
   
   {label: "Kingdom",
-  subcategory: {
+  sub_category: {
     label: "Phylum",
-    subcategory: {
+    sub_category: {
       label: "Class",
-      subcategory: {
+      sub_category: {
         label: "Order",
-        subcategory: {
+        sub_category: {
           label: "Family",
-          subcategory: {
+          sub_category: {
             label: "Genus",
-            subcategory: {
+            sub_category: {
               label: "Species",
-              subcategory: nil
+              sub_category: nil
             }
           }
         }
